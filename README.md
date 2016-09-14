@@ -1,63 +1,28 @@
-# Project 2: Supervised Learning
-## Building a Student Intervention System
+# Udacity
+## Machine Learning Nanodegree
+Machine learning represents a key evolution in the fields of computer science, data analysis, software engineering, and artificial intelligence.
 
-### Install
+This program will teach you how to become a machine learning engineer, and apply predictive models to massive data sets in fields like finance, healthcare, education, and more.
 
-This project requires **Python 2.7** and the following Python libraries installed:
+**Co-Created by:**
+- Kaggle
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [scikit-learn](http://scikit-learn.org/stable/)
+## Projects
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+### [Titanic Survival Exploration](https://github.com/jasonicarter/MLND_titanic_survival_exploration)
 
-Udacity recommends our students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+In this introductory project, we will explore a subset of the RMS Titanic passenger manifest to determine which features best predict whether someone survived or did not survive. To complete this project, you will need to implement several conditional predictions and answer the questions below. Your project submission will be evaluated based on the completion of the code and your responses to the questions.
 
-### Code
+### [Predicting Boston Housing Prices](https://github.com/jasonicarter/MLND_boston_housing)
 
-Template code is provided in the notebook `student_intervention.ipynb` notebook file. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project.
+In this project, you will apply basic machine learning concepts on data collected for housing prices in the Boston, Massachusetts area to predict the selling price of a new home. You will first explore the data to obtain important features and descriptive statistics about the dataset. Next, you will properly split the data into testing and training subsets, and determine a suitable performance metric for this problem. You will then analyze performance graphs for a learning algorithm with varying parameters and training set sizes. This will enable you to pick the optimal model that best generalizes for unseen data. Finally, you will test this optimal model on a new sample and compare the predicted selling price to your statistics.
 
-### Run
+### [Build a Student Intervention System](https://github.com/jasonicarter/MLND_student_intervention)
 
-In a terminal or command window, navigate to the top-level project directory `student_intervention/` (that contains this README) and run one of the following commands:
+A local school district has a goal to reach a 95% graduation rate by the end of the decade by identifying students who need intervention before they drop out of school. As a software engineer contacted by the school district, your task is to model the factors that predict how likely a student is to pass their high school final exam, by constructing an intervention system that leverages supervised learning techniques. The board of supervisors has asked that you find the most effective model that uses the least amount of computation costs to save on the budget. You will need to analyze the dataset on students' performance and develop a model that will predict the likelihood that a given student will pass, quantifying whether an intervention is necessary.
 
-```ipython notebook student_intervention.ipynb```  
-```jupyter notebook student_intervention.ipynb```
+### Creating Customer Segments
 
-This will open the iPython Notebook software and project file in your browser.
+### Train a Smartcab to Drive
 
-## Data
-
-The dataset used in this project is included as `student-data.csv`. This dataset has the following attributes:
-
-- `school` : student's school (binary: "GP" or "MS")
-- `sex` : student's sex (binary: "F" - female or "M" - male)
-- `age` : student's age (numeric: from 15 to 22)
-- `address` : student's home address type (binary: "U" - urban or "R" - rural)
-- `famsize` : family size (binary: "LE3" - less or equal to 3 or "GT3" - greater than 3)
-- `Pstatus` : parent's cohabitation status (binary: "T" - living together or "A" - apart)
-- `Medu` : mother's education (numeric: 0 - none,  1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education or 4 - higher education)
-- `Fedu` : father's education (numeric: 0 - none,  1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education or 4 - higher education)
-- `Mjob` : mother's job (nominal: "teacher", "health" care related, civil "services" (e.g. administrative or police), "at_home" or "other")
-- `Fjob` : father's job (nominal: "teacher", "health" care related, civil "services" (e.g. administrative or police), "at_home" or "other")
-- `reason` : reason to choose this school (nominal: close to "home", school "reputation", "course" preference or "other")
-- `guardian` : student's guardian (nominal: "mother", "father" or "other")
-- `traveltime` : home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
-- `studytime` : weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
-- `failures` : number of past class failures (numeric: n if 1<=n<3, else 4)
-- `schoolsup` : extra educational support (binary: yes or no)
-- `famsup` : family educational support (binary: yes or no)
-- `paid` : extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)
-- `activities` : extra-curricular activities (binary: yes or no)
-- `nursery` : attended nursery school (binary: yes or no)
-- `higher` : wants to take higher education (binary: yes or no)
-- `internet` : Internet access at home (binary: yes or no)
-- `romantic` : with a romantic relationship (binary: yes or no)
-- `famrel` : quality of family relationships (numeric: from 1 - very bad to 5 - excellent)
-- `freetime` : free time after school (numeric: from 1 - very low to 5 - very high)
-- `goout` : going out with friends (numeric: from 1 - very low to 5 - very high)
-- `Dalc` : workday alcohol consumption (numeric: from 1 - very low to 5 - very high)
-- `Walc` : weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)
-- `health` : current health status (numeric: from 1 - very bad to 5 - very good)
-- `absences` : number of school absences (numeric: from 0 to 93)
-- `passed` : did the student pass the final exam (binary: yes or no)
+### Capstone Projectt
